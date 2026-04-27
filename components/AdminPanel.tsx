@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { User } from '../types';
-import { Users, Settings, Shield, Ban, Check, Search, Save, LayoutTemplate, FileText, BookOpen, Plus, Trash2, Filter, ArrowRight } from 'lucide-react';
+import { User, Course, Article } from '../types';
+import { Users, Settings, Shield, FileCheck, Ban, Check, Search, Save, LayoutTemplate, FileText, BookOpen, Plus, Trash2, Edit3, Filter } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 interface AdminPanelProps {

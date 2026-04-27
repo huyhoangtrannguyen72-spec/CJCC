@@ -90,7 +90,9 @@ const Sidebar: React.FC<SidebarProps> = ({
                   `}
                 >
                   <item.icon className={`mr-3 h-4 w-4 transition-all duration-300 ${currentView === item.id ? 'text-white scale-110' : item.id === ViewState.ADMIN ? 'text-[#F58220]' : 'text-slate-500 group-hover:text-white group-hover:scale-110'}`} />
-                  {item.label}
+                  <span className={item.id === ViewState.DASHBOARD ? 'text-pink-500' : ''}>
+                    {item.label}
+                  </span>
                 </button>
               ))}
             </nav>
